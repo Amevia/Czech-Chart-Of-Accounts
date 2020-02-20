@@ -5,7 +5,7 @@
             <field name="amount">21</field>
             <field name="amount_type">percent</field>
             <field name="chart_template_id" ref="l10n_cz.czech_chart_template"/>
-            <field name="name">Základní Sazbou DPH</field>
+            <field name="name">Základní Sazba DPH</field>
             <field name="type_tax_use">sale</field>
             <field name="description">DPH 21%</field>
         </record>
@@ -14,7 +14,7 @@
             <field name="amount">15</field>
             <field name="amount_type">percent</field>
             <field name="chart_template_id" ref="l10n_cz.czech_chart_template"/>
-            <field name="name">První Sníženou Sazbou DPH</field>
+            <field name="name">První Snížená Sazba DPH</field>
             <field name="type_tax_use">sale</field>
             <field name="description">DPH 15%</field>
         </record>
@@ -23,7 +23,7 @@
             <field name="amount">10</field>
             <field name="amount_type">percent</field>
             <field name="chart_template_id" ref="l10n_cz.czech_chart_template"/>
-            <field name="name">Druhou Sníženou Sazbou DPH</field>
+            <field name="name">Druhá Snížeá Sazba DPH</field>
             <field name="type_tax_use">sale</field>
             <field name="description">DPH 10%</field>
         </record>
