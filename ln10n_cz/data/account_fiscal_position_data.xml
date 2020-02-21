@@ -6,17 +6,17 @@
         
         <record id="fiscal_position_template_1" model="account.fiscal.position.template">
             <field name="name">Obchod Česká Republika</field>
-            <field name="chart_template_id" ref="cz_chart_template"/>
+            <field name="chart_template_id" ref="czech_chart_template"/>
         </record>
         
         <record id="fiscal_position_template_2" model="account.fiscal.position.template">
             <field name="name">Obchod v rámci EU</field>
-            <field name="chart_template_id" ref="cz_chart_template"/>
+            <field name="chart_template_id" ref="czech_chart_template"/>
         </record>
 
         <record id="fiscal_position_template_3" model="account.fiscal.position.template">
             <field name="name">Obchod mimo EU</field>
-            <field name="chart_template_id" ref="cz_chart_template"/>
+            <field name="chart_template_id" ref="czech_chart_template"/>
         </record>
     
     <!-- Fiscal Position Tax Templates -->
