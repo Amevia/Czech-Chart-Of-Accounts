@@ -2215,7 +2215,7 @@
         <field name="name">Účet zisků a ztrát</field>
         <field name="user_type_id" ref="l10n_cz.account_type_cz_closing"/>
         <field name="group_id" ref="l10n_cz.account_group_71"/>
-        <field name="tag_ids" eval="[(6,0,[])]"/>
+        <field name="tag_ids" eval="[(6,0,[ref('l10n_cz.tag_cz_06')])]"/>
         <field name="chart_template_id" ref="l10n_cz.czech_chart_template"/>
     </record>
 </odoo>
