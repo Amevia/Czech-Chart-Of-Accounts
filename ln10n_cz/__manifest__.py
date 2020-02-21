@@ -19,7 +19,7 @@ This is the module to manage the accounting chart for Czech Republic in Odoo.
         'data/l10n_cz_chart_data.xml',
         'data/account_tax_template_data.xml',
         'data/account_chart_template_data.xml',
-        'data/account_fiscal_template_data.xml',
+        'data/account_fiscal_templates_data.xml',
         'data/account_fiscal_position_data.xml',
     ],
 }
