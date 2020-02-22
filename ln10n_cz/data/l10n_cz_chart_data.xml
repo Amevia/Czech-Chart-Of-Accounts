@@ -91,7 +91,7 @@
 
     <record id="chart022" model="account.account.template">
         <field name="code">022</field>
-        <field name="name">Samostatné movité věci a soubory movitýchvěcí</field>
+        <field name="name">Samostatné movité věci a soubory movitých věcí</field>
         <field name="user_type_id" ref="account.data_account_type_fixed_assets"/>
         <field name="group_id" ref="l10n_cz.account_group_02"/>
         <field name="tag_ids" eval="[(6,0,[])]"/>
