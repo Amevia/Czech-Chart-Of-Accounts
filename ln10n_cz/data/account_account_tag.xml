@@ -9,17 +9,5 @@
             <field name="name">Nedaňový</field>
             <field name="applicability">accounts</field>
         </record>
-        <record id="tag_cz_03" model="account.account.tag">
-            <field name="name">Rozvahový</field>
-            <field name="applicability">accounts</field>
-        </record>
-        <record id="tag_cz_04" model="account.account.tag">
-            <field name="name">Výsledkový</field>
-            <field name="applicability">accounts</field>
-        </record>
-        <record id="tag_cz_05" model="account.account.tag">
-            <field name="name">Závěrkový</field>
-            <field name="applicability">accounts</field>
-        </record>
     </data>
 </odoo>

@@ -5,7 +5,7 @@
             <field name="amount">21</field>
             <field name="amount_type">percent</field>
             <field name="chart_template_id" ref="l10n_cz.czech_chart_template"/>
-            <field name="name">Základní Sazba</field>
+            <field name="name">Základní Sazbou DPH</field>
             <field name="type_tax_use">sale</field>
             <field name="description">DPH 21%</field>
         </record>
@@ -14,7 +14,7 @@
             <field name="amount">15</field>
             <field name="amount_type">percent</field>
             <field name="chart_template_id" ref="l10n_cz.czech_chart_template"/>
-            <field name="name">První Snížená Sazba</field>
+            <field name="name">První Sníženou Sazbou DPH</field>
             <field name="type_tax_use">sale</field>
             <field name="description">DPH 15%</field>
         </record>
@@ -23,35 +23,8 @@
             <field name="amount">10</field>
             <field name="amount_type">percent</field>
             <field name="chart_template_id" ref="l10n_cz.czech_chart_template"/>
-            <field name="name">Druhá Snížená Sazba</field>
+            <field name="name">Druhou Sníženou Sazbou DPH</field>
             <field name="type_tax_use">sale</field>
-            <field name="description">DPH 10%</field>
-        </record>
-        
-        <record id="basic_21" model="account.tax.template">
-            <field name="amount">21</field>
-            <field name="amount_type">percent</field>
-            <field name="chart_template_id" ref="l10n_cz.czech_chart_template"/>
-            <field name="name">Základní Sazba</field>
-            <field name="type_tax_use">Purchase</field>
-            <field name="description">DPH 21%</field>
-        </record>
-
-        <record id="first_reduced_15" model="account.tax.template">
-            <field name="amount">15</field>
-            <field name="amount_type">percent</field>
-            <field name="chart_template_id" ref="l10n_cz.czech_chart_template"/>
-            <field name="name">První Snížená Sazba</field>
-            <field name="type_tax_use">Purchase</field>
-            <field name="description">DPH 15%</field>
-        </record>
-
-        <record id="second_reduced_10" model="account.tax.template">
-            <field name="amount">10</field>
-            <field name="amount_type">percent</field>
-            <field name="chart_template_id" ref="l10n_cz.czech_chart_template"/>
-            <field name="name">Druhá Snížená Sazba</field>
-            <field name="type_tax_use">Purchase</field>
             <field name="description">DPH 10%</field>
         </record>
     </data>

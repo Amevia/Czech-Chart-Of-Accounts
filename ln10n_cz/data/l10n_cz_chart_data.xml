@@ -29,8 +29,8 @@
     <record id="czech_chart_template" model="account.chart.template">
         <field name="name">Czech Republic - Chart of Accounts</field>
         <field name="code_digits">3</field>
-        <field name="bank_account_code_prefix">221</field>
-        <field name="cash_account_code_prefix">211</field>
+        <field name="bank_account_code_prefix">22</field>
+        <field name="cash_account_code_prefix">21</field>
         <field name="transfer_account_code_prefix">0</field>
         <field name="currency_id" ref="base.CZK"/>
     </record>
@@ -91,7 +91,7 @@
 
     <record id="chart022" model="account.account.template">
         <field name="code">022</field>
-        <field name="name">Samostatné movité věci a soubory movitých věcí</field>
+        <field name="name">Samostatné movité věci a soubory movitýchvěcí</field>
         <field name="user_type_id" ref="account.data_account_type_fixed_assets"/>
         <field name="group_id" ref="l10n_cz.account_group_02"/>
         <field name="tag_ids" eval="[(6,0,[])]"/>
@@ -1493,7 +1493,7 @@
     <record id="chart501" model="account.account.template">
         <field name="code">501</field>
         <field name="name">Spotřeba materiálu</field>
-        <field name="user_type_id" ref="account.data_account_type_direct_costs"/>
+        <field name="user_type_id" ref="l10n_cz.account_type_cz_expense"/>
         <field name="group_id" ref="l10n_cz.account_group_50"/>
         <field name="tag_ids" eval="[(6,0,[ref('l10n_cz.tag_cz_01')])]"/>
         <field name="chart_template_id" ref="l10n_cz.czech_chart_template"/>
