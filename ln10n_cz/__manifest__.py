@@ -6,6 +6,10 @@
 This is the module to manage the accounting chart for Czech Republic in Odoo.
 ==================================================================================
     """,
+    'author': 'Amevia s.r.o.',
+    'price': '40',
+    'currency': 'EUR',
+    'website': 'https://amevia.eu',
     'depends' : [
         'account',
     ],
