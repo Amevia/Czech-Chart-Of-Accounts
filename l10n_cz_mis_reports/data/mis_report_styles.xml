@@ -9,7 +9,7 @@
 
 
 <record id="level1" model="mis.report.style">
-    <field name="name">l10n_fr N1</field>
+    <field name="name">l10n_cz N1</field>
     <field name="background_color_inherit" eval="0"/>
     <field name="background_color">#ffff66</field>
     <field name="font_weight_inherit" eval="0"/>
@@ -19,7 +19,7 @@
 </record>
 
 <record id="level2" model="mis.report.style">
-    <field name="name">l10n_fr N2</field>
+    <field name="name">l10n_cz N2</field>
     <field name="background_color_inherit" eval="0"/>
     <field name="background_color">#ffff99</field>
     <field name="font_weight_inherit" eval="0"/>
@@ -27,7 +27,7 @@
 </record>
 
 <record id="level3" model="mis.report.style">
-    <field name="name">l10n_fr N3</field>
+    <field name="name">l10n_cz N3</field>
     <field name="background_color_inherit" eval="0"/>
     <field name="background_color">#ffffcc</field>
     <field name="font_style_inherit" eval="0"/>
